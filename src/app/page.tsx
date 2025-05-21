@@ -2,7 +2,6 @@
 
 import { useTheme } from "next-themes";
 import { IssuesTable } from "./components/IssueTable/IssuesTable";
-import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { LayoutDashboard } from "lucide-react";
 

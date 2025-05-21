@@ -56,7 +56,7 @@ const ActionBar: FC<ActionBarProps> = ({ tableState, setTableState }) => {
         <Button
           variant="outline"
           className="cursor-pointer justify-self-end"
-          onClick={() => setTableState((prev: TableState) => initialState)}
+          onClick={() => setTableState(initialState)}
         >
           <ListRestart className="w-4 h-4 " />
         </Button>

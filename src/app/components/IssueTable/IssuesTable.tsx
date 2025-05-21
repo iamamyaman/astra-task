@@ -6,7 +6,6 @@ import {
   getFilteredRowModel,
   getSortedRowModel,
   getPaginationRowModel,
-  
   ColumnDef,
   getGroupedRowModel,
 
@@ -21,7 +20,6 @@ import { sampleIssueData } from "@/data/IssuesData";
 import {
   columnConfig,
   columnFilterKeys,
-  groupingOptions,
 } from "@/constants/IssuesTable";
 import { useMemo, useState } from "react";
 import IssueDetailModal from "./IssueDetailModal";
