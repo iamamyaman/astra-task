@@ -41,8 +41,6 @@ npm run start
 - **State Management**: Jotai
 - **Type Safety**: TypeScript
 
-## Features and Optimizations
-
 ### Core Features
 - Modern table implementation with TanStack Table
 - Responsive design with Tailwind CSS
@@ -51,13 +49,6 @@ npm run start
 - Virtual scrolling support for large datasets
 - Theme support with next-themes
 
-### Optimizations
-- Turbopack for faster development builds
-- Virtual scrolling for efficient rendering of large datasets
-- Debounced search functionality
-- Optimized bundle size with proper code splitting
-- Type-safe development environment
-
 ### Additional Features
 - Dark/Light theme support
 - Responsive design
@@ -65,10 +56,5 @@ npm run start
 - Sortable columns
 - Customizable UI components
 - Accessibility features through Radix UI primitives
+- Reset button to reset the table.
 
-## Development Notes
-- The project uses ESLint for code quality
-- TypeScript for type safety
-- Tailwind CSS for styling
-- Follows Next.js 13+ app directory structure
-- Implements modern React patterns and best practices
