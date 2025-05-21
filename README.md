@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Advanced Issue Management Dashboard
 
-## Getting Started
-
-First, run the development server:
+## Running Instructions
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Folder Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+├── src/
+│   ├── app/           # Next.js app directory (pages and layouts)
+│   ├── components/    # Reusable UI components
+│   ├── constants/     # Application constants
+│   ├── data/         # Data models
+│   ├── lib/          # Utility libraries
+│   ├── store/        # State management
+│   ├── types/        # TypeScript types
+│   └── utils/        # Helper functions
+├── public/           # Static assets
+└── [config files]    # Configuration files
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Key Technologies
+- **Framework**: Next.js 15.3.2
+- **UI Library**: React 19
+- **Styling**: Tailwind CSS
+- **Component Library**: Shadcn UI
+- **Table Management**: TanStack Table
+- **State Management**: Jotai
+- **Type Safety**: TypeScript
 
-## Learn More
+## Features and Optimizations
 
-To learn more about Next.js, take a look at the following resources:
+### Core Features
+- Modern table implementation with TanStack Table
+- Responsive design with Tailwind CSS
+- Type-safe development with TypeScript
+- Component-based architecture using Shadcn UI
+- Virtual scrolling support for large datasets
+- Theme support with next-themes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Optimizations
+- Turbopack for faster development builds
+- Virtual scrolling for efficient rendering of large datasets
+- Debounced search functionality
+- Optimized bundle size with proper code splitting
+- Type-safe development environment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Additional Features
+- Dark/Light theme support
+- Responsive design
+- Search and filtering capabilities
+- Sortable columns
+- Customizable UI components
+- Accessibility features through Radix UI primitives
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Development Notes
+- The project uses ESLint for code quality
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Follows Next.js 13+ app directory structure
+- Implements modern React patterns and best practices
